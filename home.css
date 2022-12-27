@@ -1,0 +1,47 @@
+body {
+}
+.principal {
+    background: url("bg.jpg")
+}
+header {
+ background: url("bg.jpg")
+}
+header h2 {
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    top: 100px;
+    right: 500px;
+}
+.TC {
+    color: aliceblue;
+    text-align:center
+}
+p {
+    color: aliceblue;
+    text-align:center
+}
+em {
+    font-size: 20px
+}
+em strong{
+    color: red;
+}
+.beneficios {
+    background: url("bg.jpg");
+    padding: 20px;
+}
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.itens {
+    color: aliceblue;
+    font-style: italic;
+}
+.img2 {
+    width: 50%;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8"
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <header>
+            <div class="caixa">    
+                        <img src="logo.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="produto.html">produtos</a></li>
+                        <li><a href="contao.html">contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <label>Nome E Sobrenome</label>
+                <input type="email" id="NS" class="input-padrão" required>
+                <label> E-mail</label>
+                <input type="text" id="E-mail" class="input-padrão" required>
+                <label> Telefone </label>
+                <input type="number"id="Telefone" class="input-padrão" required
+                placeholder="(xx) x xxxx xxxx">
+                
+                <label> Duvida </label>
+                <textarea cols="70" rows="10" class="input-padrão"></textarea required placeholder= "Escreva sua mensagem aqui">
+                
+                <p>Como prefere o nosso contato ?</p>
+                <label for="radio-email"><input type="radio" 
+                    value="e-mail" name="contato" id="radio-email">e-mail</label>
+                <label for="radio-telefone"><input type="radio" 
+                    value="Telefone" name="contato" id="radio-telefone">Telefone</label>
+                <label for="radio-wathsapp"><input type="radio" 
+                    value="wathsapp" name="contato" id="radio-wathsapp">Wathsapp</label>
+                
+                <label class="checkbox"><input type="checkbox">gostaria de saber nossas novidades por email ?</label>
+                        <p>Qual horario deseja ser atendido</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>tarde</option>
+                    <option>noite</option>
+                </select>
+
+                    <input class="Formulario" type="submit" value="Enviar Formulário">
+            </form>
+                <table>
+                    <thead
+                        <tr>
+                            <th>dia</th>
+                            <th>horario</th>
+                        </tr>
+                    </thead>
+                        <tfoot>
+                        <tr>
+                            <td>segunda</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>quarta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        <tr>
+                            <td>sexta</td>
+                            <td>8h ~ 20h</td>
+                        </tr>
+                        </tfoot>
+                </table>
+        </main>
+        <footer>
+            <img src="logo-branco.png">
+            <p>&copy; copright Barbearia Barbixinha - 2022</p>
+        </footer>
+    </body>
+</html>
